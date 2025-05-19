@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MJ Top Up</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f3f3f3;
+    }
+    header {
+      background-color: #5e17eb;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .logo img {
+      height: 50px;
+      margin-right: 10px;
+    }
+    .section-title {
+      text-align: center;
+      margin: 20px 0 10px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      padding: 10px;
+    }
+    .product-card {
+      background-color: white;
+      border-radius: 10px;
+      padding: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .product-card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .product-title {
+      margin-top: 8px;
+      font-weight: bold;
+    }
+    footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #5e17eb;
+      color: white;
+      display: flex;
+      justify-content: space-around;
+      padding: 10px 0;
+    }
+    footer div {
+      text-align: center;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="MJ Top Up Logo" />
+      <h1>MJ Top Up</h1>
+    </div>
+  </header>
+
+  <div class="section-title">গেমস টপ-আপ</div>
+  <div class="products">
+    <div class="product-card">
+      <img src="freefire.jpg" alt="Free Fire ID Code" />
+      <div class="product-title">Free Fire IDCODE (BD)</div>
+    </div>
+  </div>
+
+  <footer>
+    <div>Home</div>
+    <div>Add Fund</div>
+    <div>My Orders</div>
+    <div>My Codes</div>
+    <div>Account</div>
+  </footer>
+</body>
+</html>
